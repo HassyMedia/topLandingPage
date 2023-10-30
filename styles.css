@@ -1,0 +1,163 @@
+
+
+
+
+header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 16px; 
+    background-color: #1f2937; 
+    
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-weight: 200;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+    background-color: #1f2937;
+    height: 500px;
+    
+    
+}
+
+.herotext {
+   padding: 16px;
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin-right: 0px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color:  #f9faf8;
+    line-height: 1;
+    
+}
+
+.titletext {
+    line-height: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 125px;
+    height: 35px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.image {
+    width: 400px;      /* adjust as needed */
+    height: 300px;     /* adjust as needed */
+    background-color: gray;  /* a light gray background */
+    border: 1px dashed #ccc;    /* dashed border for the placeholder */
+    display: flex;
+    flex: .5;
+    justify-content: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 16px
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    padding: 0 16px;
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+
+.card {
+    border: 4px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    padding: 0 8px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0;
+}
+
+.subs {
+    display: flex;
+    padding: 0 8px;
+    margin-top: 0;
+    gap: 16px
+
+    
+}
+
+.subtext {
+    
+    width: 160px;
+    height: 150px;
+    padding: 0 16px;
+    text-align: center;
+    margin-top: 0;
+    display: flex;
+    align-items: flex-start;
+    color: #666c77;
+    font-weight: 500;
+}
+
+.quote {
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-one {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.credit {
+    align-self: center;
+    padding-left: 450px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
